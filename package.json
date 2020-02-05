@@ -1,6 +1,6 @@
 {
   "name": "deepsorting",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "deepSort sort all values or keys of an  array or object include nested ones ",
   "main": "getDeepSorting.js",
   "scripts": {
