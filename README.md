@@ -15,7 +15,7 @@ Then...
 ```
 let x = ['b' , 'a' , {d: "ddd" , c: "ccc" , i : ['g' ,'f', 'h'] } , ['l' ,'k', 'j'] ,1  ]
 
-let  y = deepSort(x)
+let  y = deepsorting(x)
 
 //output
 
