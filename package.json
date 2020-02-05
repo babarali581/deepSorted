@@ -1,0 +1,23 @@
+{
+  "name": "deepsorting",
+  "version": "1.0.0",
+  "description": "deepSort sort all values or keys of an  array or object include nested ones ",
+  "main": "getDeepSorting.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babarali581/deepSorted.git"
+  },
+  "keywords": [
+    "javascript",
+    "deepSort"
+  ],
+  "author": "Babar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babarali581/deepSorted/issues"
+  },
+  "homepage": "https://github.com/babarali581/deepSorted#readme"
+}
