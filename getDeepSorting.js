@@ -46,6 +46,5 @@ function deepSort(arr) {
  }
 }
 
-let aa = deepSort(['a' , 'c' ,'f' , 'b' , {c :'cc' , a: "aa"}])
-console.log("aa ",aa);
+
 module.exports = deepSort
