@@ -16,7 +16,6 @@ function deepSort(arr) {
 
                 /* In case of string */
                 if (eachVal === "String" || eachVal === "Number") {
-                    console.log("inside");
                     return acc.concat(val)
                     // return !acc.includes(val)     ? acc.concat(val)     : acc
                 } else if (eachVal === "Object") {
