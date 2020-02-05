@@ -1,8 +1,8 @@
-# About deepSort
+# About 
 
 
 You can pass array or object in argument , it will sort it  and will sort all nested arrays and
-objects's keys 
+objects by its keys 
 
 
 # Installation
