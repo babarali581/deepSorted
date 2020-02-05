@@ -7,7 +7,7 @@ objects's keys
 
 # Installation
 
-`npm i deepSort --save `
+`npm i deepsorting --save`
 
 
 Then... 
