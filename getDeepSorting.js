@@ -21,9 +21,8 @@ function deepSort(arr) {
                 } else if (eachVal === "Object") {
 
                     val = getSortedObjectKeys(val)
-                    return !acc.includes(val)
-                        ? acc.concat(val)
-                        : acc
+                    return  acc.concat(val)
+                       
 
                 } else if (eachVal === "Array") {
 
