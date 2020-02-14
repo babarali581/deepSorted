@@ -1,8 +1,8 @@
-const getSortNestedArray = require("./helper/getSortNestedArray")
-const getSortedObjectKeys = require('./helper/getSortObject')
+const {getSortNestedArray} = require("./helper/getSortNestedArray")
+const {getSortedObjectKeys} = require('./helper/getSortObject')
 
 function deepSort(arr) {
-    try {
+   // try {
         if (Array.isArray(arr)) {
             let finalResp = arr.reduce((acc, val) => {
 
@@ -43,10 +43,10 @@ function deepSort(arr) {
             return new Error("You should provide array or object")
         }
 
-    } catch (err) {
-        return new Error(err)
+    // } catch (err) {
+    //     return new Error(err)
 
-    }
+    // }
 }
 
 module.exports = deepSort
