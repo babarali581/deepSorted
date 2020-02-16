@@ -1,6 +1,5 @@
 
 function getSortedObjectKeys(o) {
-    console.log("0000000000000 ",o);
     let a = [];
     
     for (let key in o) {
@@ -10,7 +9,6 @@ function getSortedObjectKeys(o) {
     }
     
     a.sort();
-    console.log("keyyyyyyyyy ",a);
     const sortObj = a.reduce((acc, key) => {
         let {getSortNestedArray} = require("./getSortNestedArray")
         let getVal = o[key]
@@ -22,10 +20,8 @@ function getSortedObjectKeys(o) {
                 : Array.isArray(getVal)
                     ? "Array"
                     : "Object"
-       console.log("getVal ",getVal);
         if (eachVal === "String" || eachVal === "Number") {
 
-            console.log('string: ', getVal);
             acc[key] = getVal
 
             return acc
@@ -36,11 +32,7 @@ function getSortedObjectKeys(o) {
             return acc
 
         } else if (eachVal === "Array") {
-            console.log("inside array");
-            console.log(Array.isArray(getVal));
-            let bbb = getSortNestedArray(getVal)
-            console.log('getVal.sort(): ',bbb );
-            acc[key] = getVal.sort()
+            acc[key] = getSortNestedArray(getVal)
 
             return acc
 
